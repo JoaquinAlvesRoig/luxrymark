@@ -1,0 +1,329 @@
+/* RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    }
+
+    body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;     
+    background-color:#13161a; 
+    }   
+
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .logoimg {
+        height: 70px;
+        margin-right: 10px;
+        transition: all 0.5s;
+      }
+      .logoimg:hover {
+        height: 100px;
+    }
+
+    .jota2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      
+      .jota {
+        transition: all 0.5s;
+        
+      }
+      .jota:hover {
+        font-size: 20px;
+      }
+      
+      .ja {
+        transition: all 0.5s;
+      }
+      .ja:hover {
+        font-size: 80px;
+      }
+      
+
+    .videomain{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:400px ;
+        object-fit: cover;  
+    }
+    .primerboton{
+        height: 50px;
+        border-radius: 30px;
+        width: 200px;
+        background-color: #1c343c;
+        font-size: 1.7rem;
+        color: white;
+        font-weight: 700;
+        transition: 150ms;
+        text-align: center; 
+        text-decoration: none;
+        border: none;
+    }
+    
+    .primerboton:hover{
+        transform: translate(0,-5px);
+        background-color: rgb(35, 51, 56);
+    }
+
+    
+    a:focus{
+        outline: none;
+    }
+
+    a {
+    text-decoration: none; 
+    }
+    
+    
+    .promo{
+        padding: top 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 59%;
+        margin: auto;
+        position: relative;
+        z-index: 2;
+    }
+    .promo h1{
+        font-size:  3rem;
+        text-align: center;
+        color:white  ;
+        font-weight: 400;
+        font-family: 'League Spartan', sans-serif;
+        font-family: 'Merriweather', serif;
+        
+    }
+    .promo p {
+        font-size: 2.5rem;
+        text-align: center;
+        color:#ffffff;
+        font-weight: 400;
+        font-family: 'League Spartan', sans-serif;
+        font-family: 'Merriweather', serif;
+    }
+    .promo2 {
+        padding: top 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 59%;
+        margin: auto;
+        position: relative;
+        z-index: 2;
+    }
+    .promo2 h1{
+        font-size:  3rem;
+        text-align: center;
+        color:white  ;
+        font-weight: 400;
+        font-family: 'League Spartan', sans-serif;
+        font-family: 'Merriweather', serif;
+        
+    }
+    .promo2 p {
+        font-size: 25px;
+        text-align: center;
+        color:#ffffff;
+        font-weight: 400;
+        font-family: 'League Spartan', sans-serif;
+        font-family: 'Merriweather', serif;
+    }
+
+    .grillado{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .grillado2{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .osvaldo{
+        padding-top: 65px;
+        padding-right: 7px;
+        width: 100%;
+        height: 630px;
+        transition: all 0.3s;
+        border-radius: 10px;
+        
+    }
+    .osvaldo:hover{
+        opacity: 0.7;
+    }
+
+    .botonimagen1{
+        top: 410px;
+        color: #000000;
+        position: absolute;
+        background-color:rgb(236, 230, 230);
+        padding-top: 5px;
+        margin: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 10px;
+    }
+    .botonimagen2{
+        top: 990px;
+        color: #000000;
+        position: absolute;
+        background-color:rgb(236, 230, 230);
+        padding-top: 5px;
+        margin: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 10px;
+    }
+    
+    .pendeja{
+        padding-top: 65px;
+        padding-left: 7px;
+        width: 100%;
+        height: 630px;
+        transition: all 0.3s;
+        border-radius: 10px;
+        
+    }
+    .pendeja:hover{
+        opacity: 0.7;
+    }
+    .diseñoweb{
+        padding-top: 15px;
+        padding-right: 7px;
+        width: 100%;
+        height: 630px;
+        transition: all 0.3s;
+        border-radius: 10px;
+    }
+    .diseñoweb:hover{
+        opacity: 0.7;
+    }
+    .publicidad{
+        padding-top: 15px;
+        padding-left: 5px;
+        width: 100%;
+        height: 630px;
+        transition: all 0.3s;
+        border-radius: 10px;
+    }
+    .publicidad:hover{
+        opacity: 0.7;
+    }
+    .row{
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .animacion {
+        animation-name: ejemplo; 
+        animation-duration: 2s; 
+        animation-iteration-count: infinite; 
+        animation-direction: alternate; 
+      }
+
+      @keyframes ejemplo {
+        from {
+          font-size: 45px; 
+        }
+        to {
+          font-size: 47px; 
+        }
+      }
+    
+    .column{
+        padding: 5px;
+        flex: 25%;
+    }
+    
+    .column img {
+        margin-top: 5px;
+    }
+    
+    .row img{
+        width: 360px;
+    }
+    
+    .textodelconteiner {
+        font-size: 15px;
+        color:rgb(255, 255, 255);
+        width: 330px;
+        max-height: 320px;
+        min-height:310px ;
+        padding: 30px;
+        background:#323841 ;
+        border-radius: 10px;
+        transition: all 1s;
+        font-family: 'League Spartan', sans-serif;
+        font-family: 'Merriweather', serif; 
+    }
+    .textodelconteiner:hover{
+        height: 300px;
+        width: 400px;
+    }
+
+    .textodelconteiner2 {
+        font-size: 15px;
+        color:rgb(255, 255, 255);
+        width: 330px;
+        max-height: 320px;
+        min-height:310px ;
+        padding: 30px;
+        background:#323841 ;
+        border-radius: 10px;
+        transition: all 1s;
+        font-family: 'League Spartan', sans-serif;
+        font-family: 'Merriweather', serif; 
+    }
+    .textodelconteiner2:hover{
+        height: 300px;
+        width: 400px;
+    }
+    
+    .conteiner{
+        display: grid;
+        padding-top: 100px;
+        margin: 100px;
+        gap: 50px;
+        align-items: center;
+        justify-items: center;
+       grid-template-columns: repeat(3,1fr);
+       transform: translate(0,-5px);
+    }
+
+    .textoconteiner2{
+        font-size: 15px;
+        color:rgb(255, 255, 255);
+        width: 330px;
+        max-height: 320px;
+        min-height:310px ;
+        padding: 30px;
+        background:#323841 ;
+        border-radius: 10px;
+        transition: all 1s;
+        position: absolute;
+       
+    }
+    
+  
